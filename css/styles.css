@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 1px 20px;
+    background: url("../assets/background.png") no-repeat;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.instagram{
+    list-style-image: url("../assets/Insta.png");
+}
+
+.linkedin{
+    list-style-image: url("../assets/linkedin.png");
+}
+
+.github{
+    list-style-image: url("../assets/github.png");
+}
